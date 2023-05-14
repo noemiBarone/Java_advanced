@@ -56,7 +56,7 @@ public class Exercises {
 
     private static void stampaUguali (Person p1, Person p2){
         if(p1.hashCode() == p2.hashCode()) {
-            System.out.println("Ci sono due persone uguali");
+            System.out.println("Sono uguali");
         } else {
             System.out.println("Non sono uguali");
         }
